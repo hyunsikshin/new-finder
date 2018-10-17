@@ -1,0 +1,222 @@
+body {
+  background-image: url('../img/background.gif');
+  padding: 28px 26px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+embed {
+  visibility: hidden;
+}
+
+.NEWFINDER {
+  width: 293px;
+  height: 61px;
+  object-fit: contain;
+}
+
+.MISSINGROOM {
+  width: 363px;
+  height: 61px;
+  object-fit: contain;
+}
+
+.img1 {
+  position: absolute;
+  width: 380px;
+  height: 507px;
+  top: 7%;
+  left: 18%;
+}
+
+.img2 {
+  position: absolute;
+  width: 214px;
+  height: 161px;
+  top: 44%;
+  left: 65%;
+}
+
+.img3 {
+  position: absolute;
+  width: 352px;
+  height: 263px;
+  top: 70%;
+  left: 53%;
+}
+
+.img4 {
+  position: absolute;
+  width: 278px;
+  height: 209px;
+  top: 46%;
+  left: 2%;
+}
+
+.img5 {
+  position: absolute;
+  width: 329px;
+  height: 247px;
+  top: 8%;
+  left: 36%;
+}
+
+.img6 {
+  position: absolute;
+  width: 311px;
+  height: 558px;
+  top: 2%;
+  left: 50%;
+}
+
+.img7 {
+  position: absolute;
+  width: 279px;
+  height: 375px;
+  top: 49%;
+  left: 77%;
+}
+
+.img8 {
+  position: absolute;
+  width: 218px;
+  height: 163px;
+  top: 16%;
+  left: 85%;
+}
+
+.img9 {
+  position: absolute;
+  width: 119px;
+  height: 117px;
+  top: 79%;
+  left: 11%;
+}
+
+.img10 {
+  position: absolute;
+  width: 252px;
+  height: 401px;
+  top: 45%;
+  left: 35%;
+}
+
+.img11 {
+  position: absolute;
+  width: 159px;
+  height: 206px;
+  top: 76%;
+  left: 27%;
+}
+
+.img12 {
+  position: absolute;
+  width: 185px;
+  height: 106px;
+  top: 14%;
+  left: 70%;
+}
+
+.img14 {
+  position: absolute;
+  width: 180px;
+  height: 211px;
+  top: 20%;
+  left: 6%;
+}
+
+.modal-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 160px;
+  justify-content: center;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Black w/ opacity */
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  width: 55px;
+  height: 72px;
+  transition: 0.3s;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin: 0 30px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NEWFINDER</title>
+
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <a href="#"><img src="img/newfinder.png" class="NEWFINDER"></a>
+    <a href="http://www.missing-room.com/"><img src="img/missingroom.png" class="MISSINGROOM"></a>
+  </header>
+
+  <main>
+    <img src="img/1.png" class="img1" />
+    <img src="img/2.png" class="img2 icon" id="myImg1" />
+    <img src="img/3.png" class="img3" />
+    <img src="img/4.png" class="img4 icon" id="myImg3" />
+    <img src="img/5.png" class="img5 icon" id="myImg4" />
+    <img src="img/6.png" class="img6" />
+    <img src="img/7.png" class="img7 icon" id="myImg6" />
+    <img src="img/8.png" class="img8 icon" id="myImg7" />
+    <img src="img/9.png" class="img9 icon" id="myImg2" />
+    <img src="img/10.png" class="img10 icon" id="myImg9" />
+    <img src="img/11.png" class="img11 icon" id="myImg5" />
+    <img src="img/12.png" class="img12 icon" id="myImg8" />
+    <img src="img/14.png" class="img14 icon" id="myImg" />
+  </main>
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close" onclick="pauseVid()"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides">
+          <img src="img/object1.png" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="img/object2.png" style="width:100%">
+        </div>
+        <div class="mySlides">
+          <img src="img/object3.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/8_362.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="myModal1" class="modal">
+    <span class="close1 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides1(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides1">
+          <img src="img/fashion-hand.png" style="width:100%">
+        </div>
+        <div class="mySlides1">
+          <img src="img/fashion-object1.png" style="width:100%">
+        </div>
+        <div class="mySlides1">
+          <img src="img/fashion-object2.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides1(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/5_fasion.m4a" type="audio/mp4">
+    </audio>
+  </div>
+
+  <div id="myModal2" class="modal">
+    <span class="close2 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides2(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides2">
+          <img src="img/353-1-hand1.png" style="width:100%">
+        </div>
+        <div class="mySlides2">
+          <img src="img/353-1-hand2.png" style="width:100%">
+        </div>
+        <div class="mySlides2">
+          <img src="img/353-1-object.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides2(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/1_353-1.m4a" type="audio/mp4">
+    </audio>
+  </div>
+
+  <div id="myModal3" class="modal">
+    <span class="close3 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides3(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides3">
+          <img src="img/359-hand.png" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="img/359-object1.png" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="img/359-object2.png" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="img/359-object3.png" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="img/359-object4.png" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="img/359-object5.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides3(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/7_359.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="myModal4" class="modal">
+    <span class="close4 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides4(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides4">
+          <img src="img/shoes-hand1.png" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="img/shoes-hand2.png" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="img/shoes-object1.png" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="img/shoes-object2.png" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="img/shoes-object3.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides4(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/3_shoes.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="myModal5" class="modal">
+    <span class="close5 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides5(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides5">
+          <img src="img/361-hand1.png" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="img/361-hand2.png" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="img/361-object.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides5(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/4_361.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="myModal6" class="modal">
+    <span class="close6 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides6(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides6">
+          <img src="img/motor-hand.png" style="width:100%">
+        </div>
+        <div class="mySlides6">
+          <img src="img/motor-object.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides6(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/6_motor.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="myModal7" class="modal">
+    <span class="close7 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides7(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides7">
+          <img src="img/353-2-hand.png" style="width:100%">
+        </div>
+        <div class="mySlides7">
+          <img src="img/353-2-object.png" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides7(1)"><img src="img/next.png"></a>
+    </div>
+    <audio controls>
+      <source src="./audio/2_353-2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="myModal8" class="modal">
+    <span class="close8 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <a class="prev" onclick="plusSlides8(-1)"><img src="img/back.png"></a>
+      <div class="container">
+        <div class="mySlides8">
+          <img src="img/draw/1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/3.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/4.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/5.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/6.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/6-1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/7.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/8.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/9.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/10.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/11.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/12.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/13.jpg" style="width:100%">
+        </div>
+        <div class="mySlides8">
+          <img src="img/draw/14.jpg" style="width:100%">
+        </div>
+      </div>
+      <a class="next" onclick="plusSlides8(1)"><img src="img/next.png"></a>
+    </div>
+  </div>
+
+  <div id="myModal9" class="modal">
+    <span class="close9 close"><img src="img/cancle.png" alt="close"></span>
+    <div class="modal-image">
+      <div class="container">
+        <video width="1250" height="850" controls>
+          <source src="./video/newfinder_video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var modal9 = document.getElementById('myModal9');
+    var img9 = document.getElementById('myImg9');
+    img9.onclick = function () {
+      modal9.style.display = "block";
+    }
+
+    var span9 = document.getElementsByClassName("close9")[0];
+    span9.onclick = function () {
+      modal9.style.display = "none";
+    }
+
+    var modal = document.getElementById('myModal');
+    var img = document.getElementById('myImg');
+    img.onclick = function () {
+      modal.style.display = "block";
+    }
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+      modal.style.display = "none";
+
+    }
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+
+
+    var modal1 = document.getElementById('myModal1');
+    var img1 = document.getElementById('myImg1');
+    img1.onclick = function () {
+      modal1.style.display = "block";
+    }
+
+    var span1 = document.getElementsByClassName("close1")[0];
+    span1.onclick = function () {
+      modal1.style.display = "none";
+    }
+
+    var slideIndex1 = 1;
+    showSlides1(slideIndex1);
+
+    function plusSlides1(n) {
+      showSlides1(slideIndex1 += n);
+    }
+
+    function currentSlide1(n) {
+      showSlides1(slideIndex1 = n);
+    }
+
+    function showSlides1(n) {
+      var i;
+      var slides1 = document.getElementsByClassName("mySlides1");
+      if (n > slides1.length) {
+        slideIndex1 = 1
+      }
+      if (n < 1) {
+        slideIndex1 = slides1.length
+      }
+      for (i = 0; i < slides1.length; i++) {
+        slides1[i].style.display = "none";
+      }
+      slides1[slideIndex1 - 1].style.display = "block";
+    }
+
+
+    var modal2 = document.getElementById('myModal2');
+    var img2 = document.getElementById('myImg2');
+    img2.onclick = function () {
+      modal2.style.display = "block";
+    }
+
+    var span2 = document.getElementsByClassName("close2")[0];
+    span2.onclick = function () {
+      modal2.style.display = "none";
+    }
+
+    var slideIndex2 = 1;
+    showSlides2(slideIndex2);
+
+    function plusSlides2(n) {
+      showSlides2(slideIndex2 += n);
+    }
+
+    function currentSlide2(n) {
+      showSlides2(slideIndex2 = n);
+    }
+
+    function showSlides2(n) {
+      var i;
+      var slides2 = document.getElementsByClassName("mySlides2");
+      if (n > slides2.length) {
+        slideIndex2 = 1
+      }
+      if (n < 1) {
+        slideIndex2 = slides2.length
+      }
+      for (i = 0; i < slides2.length; i++) {
+        slides2[i].style.display = "none";
+      }
+      slides2[slideIndex2 - 1].style.display = "block";
+    }
+
+    var modal3 = document.getElementById('myModal3');
+    var img3 = document.getElementById('myImg3');
+    img3.onclick = function () {
+      modal3.style.display = "block";
+    }
+
+    var span3 = document.getElementsByClassName("close3")[0];
+    span3.onclick = function () {
+      modal3.style.display = "none";
+    }
+
+    var slideIndex3 = 1;
+    showSlides3(slideIndex3);
+
+    function plusSlides3(n) {
+      showSlides3(slideIndex3 += n);
+    }
+
+    function currentSlide3(n) {
+      showSlides3(slideIndex3 = n);
+    }
+
+    function showSlides3(n) {
+      var i;
+      var slides3 = document.getElementsByClassName("mySlides3");
+      if (n > slides3.length) {
+        slideIndex3 = 1
+      }
+      if (n < 1) {
+        slideIndex3 = slides3.length
+      }
+      for (i = 0; i < slides3.length; i++) {
+        slides3[i].style.display = "none";
+      }
+      slides3[slideIndex3 - 1].style.display = "block";
+    }
+
+    var modal4 = document.getElementById('myModal4');
+    var img4 = document.getElementById('myImg4');
+    img4.onclick = function () {
+      modal4.style.display = "block";
+    }
+
+    var span4 = document.getElementsByClassName("close4")[0];
+    span4.onclick = function () {
+      modal4.style.display = "none";
+    }
+
+    var slideIndex4 = 1;
+    showSlides4(slideIndex4);
+
+    function plusSlides4(n) {
+      showSlides4(slideIndex4 += n);
+    }
+
+    function currentSlide4(n) {
+      showSlides4(slideIndex4 = n);
+    }
+
+    function showSlides4(n) {
+      var i;
+      var slides4 = document.getElementsByClassName("mySlides4");
+      if (n > slides4.length) {
+        slideIndex4 = 1
+      }
+      if (n < 1) {
+        slideIndex4 = slides4.length
+      }
+      for (i = 0; i < slides4.length; i++) {
+        slides4[i].style.display = "none";
+      }
+      slides4[slideIndex4 - 1].style.display = "block";
+    }
+
+    var modal5 = document.getElementById('myModal5');
+    var img5 = document.getElementById('myImg5');
+    img5.onclick = function () {
+      modal5.style.display = "block";
+    }
+
+    var span5 = document.getElementsByClassName("close5")[0];
+    span5.onclick = function () {
+      modal5.style.display = "none";
+    }
+
+    var slideIndex5 = 1;
+    showSlides5(slideIndex5);
+
+    function plusSlides5(n) {
+      showSlides5(slideIndex5 += n);
+    }
+
+    function currentSlide5(n) {
+      showSlides5(slideIndex5 = n);
+    }
+
+    function showSlides5(n) {
+      var i;
+      var slides5 = document.getElementsByClassName("mySlides5");
+      if (n > slides5.length) {
+        slideIndex5 = 1
+      }
+      if (n < 1) {
+        slideIndex5 = slides5.length
+      }
+      for (i = 0; i < slides5.length; i++) {
+        slides5[i].style.display = "none";
+      }
+      slides5[slideIndex5 - 1].style.display = "block";
+    }
+
+    var modal6 = document.getElementById('myModal6');
+    var img6 = document.getElementById('myImg6');
+    img6.onclick = function () {
+      modal6.style.display = "block";
+    }
+
+    var span6 = document.getElementsByClassName("close6")[0];
+    span6.onclick = function () {
+      modal6.style.display = "none";
+    }
+
+    var slideIndex6 = 1;
+    showSlides6(slideIndex6);
+
+    function plusSlides6(n) {
+      showSlides6(slideIndex6 += n);
+    }
+
+    function currentSlide6(n) {
+      showSlides6(slideIndex6 = n);
+    }
+
+    function showSlides6(n) {
+      var i;
+      var slides6 = document.getElementsByClassName("mySlides6");
+      if (n > slides6.length) {
+        slideIndex6 = 1
+      }
+      if (n < 1) {
+        slideIndex6 = slides6.length
+      }
+      for (i = 0; i < slides6.length; i++) {
+        slides6[i].style.display = "none";
+      }
+      slides6[slideIndex6 - 1].style.display = "block";
+    }
+
+    var modal7 = document.getElementById('myModal7');
+    var img7 = document.getElementById('myImg7');
+    img7.onclick = function () {
+      modal7.style.display = "block";
+    }
+
+    var span7 = document.getElementsByClassName("close7")[0];
+    span7.onclick = function () {
+      modal7.style.display = "none";
+    }
+
+    var slideIndex7 = 1;
+    showSlides7(slideIndex7);
+
+    function plusSlides7(n) {
+      showSlides7(slideIndex7 += n);
+    }
+
+    function currentSlide7(n) {
+      showSlides7(slideIndex7 = n);
+    }
+
+    function showSlides7(n) {
+      var i;
+      var slides7 = document.getElementsByClassName("mySlides7");
+      if (n > slides7.length) {
+        slideIndex7 = 1
+      }
+      if (n < 1) {
+        slideIndex7 = slides7.length
+      }
+      for (i = 0; i < slides7.length; i++) {
+        slides7[i].style.display = "none";
+      }
+      slides7[slideIndex7 - 1].style.display = "block";
+    }
+
+    var modal8 = document.getElementById('myModal8');
+    var img8 = document.getElementById('myImg8');
+    img8.onclick = function () {
+      modal8.style.display = "block";
+    }
+
+    var span8 = document.getElementsByClassName("close8")[0];
+    span8.onclick = function () {
+      modal8.style.display = "none";
+    }
+
+    var slideIndex8 = 1;
+    showSlides8(slideIndex8);
+
+    function plusSlides8(n) {
+      showSlides8(slideIndex8 += n);
+    }
+
+    function currentSlide8(n) {
+      showSlides8(slideIndex8 = n);
+    }
+
+    function showSlides8(n) {
+      var i;
+      var slides8 = document.getElementsByClassName("mySlides8");
+      if (n > slides8.length) {
+        slideIndex8 = 1
+      }
+      if (n < 1) {
+        slideIndex8 = slides8.length
+      }
+      for (i = 0; i < slides8.length; i++) {
+        slides8[i].style.display = "none";
+      }
+      slides8[slideIndex8 - 1].style.display = "block";
+    }
+  </script>
+</body>
+
+</html>
