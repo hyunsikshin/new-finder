@@ -11,7 +11,6 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -39,7 +38,7 @@
 
   <!-- The Modal -->
   <div id="myModal" class="modal">
-    <span class="close" onclick="pauseVid()"><img src="img/cancle.png" alt="close"></span>
+    <span class="close" id="audio_click"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -55,11 +54,14 @@
       </div>
       <a class="next" onclick="plusSlides(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/8_362.mp3" type="audio/mpeg" autoplay="true">
+
+    <audio controls id="audioman">
+      <source src="./audio/8_362.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <div id="myModal1" class="modal">
-    <span class="close1 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close1 close" id="audio_click1"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides1(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -75,11 +77,14 @@
       </div>
       <a class="next" onclick="plusSlides1(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/5_fasion.m4a" type="audio/mp4" autoplay="true">
+
+    <audio controls id="audioman1">
+      <source src="./audio/5_fasion.m4a" type="audio/mp4">
+    </audio>
   </div>
 
   <div id="myModal2" class="modal">
-    <span class="close2 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close2 close" id="audio_click2"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides2(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -95,11 +100,14 @@
       </div>
       <a class="next" onclick="plusSlides2(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/1_353-1.m4a" type="audio/mp4" autoplay="true">
+
+    <audio controls id="audioman2">
+      <source src="./audio/1_353-1.m4a" type="audio/mp4">
+    </audio>
   </div>
 
   <div id="myModal3" class="modal">
-    <span class="close3 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close3 close" id="audio_click3"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides3(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -124,11 +132,14 @@
       </div>
       <a class="next" onclick="plusSlides3(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/7_359.mp3" type="audio/mpeg" autoplay="true">
+
+    <audio controls id="audioman3">
+      <source src="./audio/7_359.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <div id="myModal4" class="modal">
-    <span class="close4 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close4 close" id="audio_click4"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides4(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -150,11 +161,14 @@
       </div>
       <a class="next" onclick="plusSlides4(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/3_shoes.mp3" type="audio/mpeg" autoplay="true">
+
+    <audio controls id="audioman4">
+      <source src="./audio/3_shoes.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <div id="myModal5" class="modal">
-    <span class="close5 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close5 close" id="audio_click5"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides5(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -170,11 +184,14 @@
       </div>
       <a class="next" onclick="plusSlides5(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/4_361.mp3" type="audio/mpeg" autoplay="true">
+
+    <audio controls id="audioman5">
+      <source src="./audio/4_361.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <div id="myModal6" class="modal">
-    <span class="close6 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close6 close" id="audio_click6"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides6(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -187,11 +204,14 @@
       </div>
       <a class="next" onclick="plusSlides6(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/6_motor.mp3" type="audio/mpeg" autoplay="true">
+
+    <audio controls id="audioman6">
+      <source src="./audio/6_motor.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <div id="myModal7" class="modal">
-    <span class="close7 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close7 close" id="audio_click7"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <a class="prev" onclick="plusSlides7(-1)"><img src="img/back.png"></a>
       <div class="container">
@@ -204,7 +224,10 @@
       </div>
       <a class="next" onclick="plusSlides7(1)"><img src="img/next.png"></a>
     </div>
-    <embed src="./audio/2_353.mp3" type="audio/mpeg" autoplay="true">
+
+    <audio controls id="audioman7">
+      <source src="./audio/2_353-2.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <div id="myModal8" class="modal">
@@ -293,8 +316,8 @@
     var span = document.getElementsByClassName("close")[0];
     span.onclick = function () {
       modal.style.display = "none";
-
     }
+
     var slideIndex = 1;
     showSlides(slideIndex);
 
@@ -618,6 +641,62 @@
       }
       slides8[slideIndex8 - 1].style.display = "block";
     }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $("#audio_click").click(function (e) {
+      var audio = $("#audioman").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click1").click(function (e) {
+      var audio = $("#audioman1").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click2").click(function (e) {
+      var audio = $("#audioman2").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click3").click(function (e) {
+      var audio = $("#audioman3").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click4").click(function (e) {
+      var audio = $("#audioman4").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click5").click(function (e) {
+      var audio = $("#audioman5").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click6").click(function (e) {
+      var audio = $("#audioman6").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click7").click(function (e) {
+      var audio = $("#audioman7").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
+
+    $("#audio_click8").click(function (e) {
+      var audio = $("#audioman8").get(0);
+      audio.pause();
+      audio.currentTime = 0;
+    });
   </script>
 </body>
 
