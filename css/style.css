@@ -1,6 +1,7 @@
 body {
   background-image: url('../img/background.gif');
   padding: 28px 26px;
+  width: 100%;
 }
 
 header {
@@ -11,25 +12,26 @@ header {
 
 embed {
   visibility: hidden;
+  height: 10px;
 }
 
 .NEWFINDER {
-  width: 293px;
-  height: 61px;
+  width: 312px;
+  height: 59px;
   object-fit: contain;
 }
 
 .MISSINGROOM {
-  width: 363px;
-  height: 61px;
+  width: 369px;
+  height: 62px;
   object-fit: contain;
 }
 
 .img1 {
   position: absolute;
-  width: 380px;
-  height: 507px;
-  top: 7%;
+  width: 300px;
+  height: 360px;
+  top: 13%;
   left: 18%;
 }
 
@@ -37,38 +39,38 @@ embed {
   position: absolute;
   width: 214px;
   height: 161px;
-  top: 44%;
-  left: 65%;
+  top: 42%;
+  left: 67%;
 }
 
 .img3 {
   position: absolute;
-  width: 352px;
-  height: 263px;
+  width: 325px;
+  height: 235px;
   top: 70%;
-  left: 53%;
+  left: 55%;
 }
 
 .img4 {
   position: absolute;
-  width: 278px;
-  height: 209px;
+  width: 265px;
+  height: 195px;
   top: 46%;
   left: 2%;
 }
 
 .img5 {
   position: absolute;
-  width: 329px;
-  height: 247px;
+  width: 300px;
+  height: 220px;
   top: 8%;
   left: 36%;
 }
 
 .img6 {
   position: absolute;
-  width: 311px;
-  height: 558px;
+  width: 300px;
+  height: 540px;
   top: 2%;
   left: 50%;
 }
@@ -78,7 +80,7 @@ embed {
   width: 279px;
   height: 375px;
   top: 49%;
-  left: 77%;
+  left: 80%;
 }
 
 .img8 {
@@ -99,32 +101,32 @@ embed {
 
 .img10 {
   position: absolute;
-  width: 252px;
-  height: 401px;
-  top: 45%;
-  left: 35%;
+  width: 200px;
+  height: 360px;
+  top: 42%;
+  left: 32%;
 }
 
 .img11 {
   position: absolute;
-  width: 159px;
-  height: 206px;
+  width: 150px;
+  height: 170px;
   top: 76%;
-  left: 27%;
+  left: 24%;
 }
 
 .img12 {
   position: absolute;
-  width: 185px;
-  height: 106px;
-  top: 14%;
+  width: 180px;
+  height: 100px;
+  top: 17%;
   left: 70%;
 }
 
 .img14 {
   position: absolute;
-  width: 180px;
-  height: 211px;
+  width: 130px;
+  height: 150px;
   top: 20%;
   left: 6%;
 }
@@ -157,7 +159,7 @@ embed {
   /* Full width */
   height: 100%;
   /* Full height */
-  overflow: auto;
+  overflow: hidden;
   /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
   /* Fallback color */
