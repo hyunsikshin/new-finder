@@ -286,10 +286,10 @@
   </div>
 
   <div id="myModal9" class="modal">
-    <span class="close9 close"><img src="img/cancle.png" alt="close"></span>
+    <span class="close9 close" id="video_click"><img src="img/cancle.png" alt="close"></span>
     <div class="modal-image">
       <div class="container">
-        <video width="1100" height="650" controls>
+        <video width="1100" height="650" controls id="video">
           <source src="./video/newfinder_video.mp4" type="video/mp4">
         </video>
       </div>
@@ -312,10 +312,13 @@
     var img = document.getElementById('myImg');
     img.onclick = function () {
       modal.style.display = "block";
+      slideIndex = 1;
+      showSlides(slideIndex);
     }
     var span = document.getElementsByClassName("close")[0];
     span.onclick = function () {
       modal.style.display = "none";
+      console.log(slideIndex);
     }
 
     var slideIndex = 1;
@@ -349,6 +352,8 @@
     var img1 = document.getElementById('myImg1');
     img1.onclick = function () {
       modal1.style.display = "block";
+      slideIndex1 = 1;
+      showSlides1(slideIndex1);
     }
 
     var span1 = document.getElementsByClassName("close1")[0];
@@ -387,6 +392,8 @@
     var img2 = document.getElementById('myImg2');
     img2.onclick = function () {
       modal2.style.display = "block";
+      slideIndex2 = 1;
+      showSlides2(slideIndex2);
     }
 
     var span2 = document.getElementsByClassName("close2")[0];
@@ -424,6 +431,8 @@
     var img3 = document.getElementById('myImg3');
     img3.onclick = function () {
       modal3.style.display = "block";
+      slideIndex3 = 1;
+      showSlides3(slideIndex3);
     }
 
     var span3 = document.getElementsByClassName("close3")[0];
@@ -461,6 +470,8 @@
     var img4 = document.getElementById('myImg4');
     img4.onclick = function () {
       modal4.style.display = "block";
+      slideIndex4 = 1;
+      showSlides4(slideIndex4);
     }
 
     var span4 = document.getElementsByClassName("close4")[0];
@@ -498,6 +509,8 @@
     var img5 = document.getElementById('myImg5');
     img5.onclick = function () {
       modal5.style.display = "block";
+      slideIndex5 = 1;
+      showSlides5(slideIndex5);
     }
 
     var span5 = document.getElementsByClassName("close5")[0];
@@ -535,6 +548,8 @@
     var img6 = document.getElementById('myImg6');
     img6.onclick = function () {
       modal6.style.display = "block";
+      slideIndex6 = 1;
+      showSlides6(slideIndex6);
     }
 
     var span6 = document.getElementsByClassName("close6")[0];
@@ -572,6 +587,8 @@
     var img7 = document.getElementById('myImg7');
     img7.onclick = function () {
       modal7.style.display = "block";
+      slideIndex7 = 1;
+      showSlides7(slideIndex7);
     }
 
     var span7 = document.getElementsByClassName("close7")[0];
@@ -609,6 +626,8 @@
     var img8 = document.getElementById('myImg8');
     img8.onclick = function () {
       modal8.style.display = "block";
+      slideIndex8 = 1;
+      showSlides8(slideIndex8);
     }
 
     var span8 = document.getElementsByClassName("close8")[0];
@@ -696,6 +715,12 @@
       var audio = $("#audioman8").get(0);
       audio.pause();
       audio.currentTime = 0;
+    });
+
+    $("#video_click").click(function (e) {
+      var video = $("#video").get(0);
+      video.pause();
+      video.currentTime = 0;
     });
   </script>
 </body>
